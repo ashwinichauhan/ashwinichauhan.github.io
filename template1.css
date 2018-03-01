@@ -1,0 +1,70 @@
+
+html {
+    overflow-y: auto;
+    background: #white ;
+    background-size: 22em;
+}
+div.background {
+    background: url("https://static.pexels.com/photos/4825/red-love-romantic-flowers.jpg") repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+body {
+    background-image: url("http://eskipaper.com/images/white-flowers-36.jpg");
+    font: 112.5%/1.3 "ltc-bodoni-175",serif;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: #272625;
+    text-transform: uppercase;
+}
+p { 
+   border-style: double;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+/* Remove margins and padding from the list, and add a black background color */
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
